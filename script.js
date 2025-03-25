@@ -1,4 +1,4 @@
-const apiUrl = "https://61d77998-0da5-4199-8489-75edb7e2333e-00-1wpbje87vuexw.picard.repl.co/now-playing"; // Your Replit API URL
+const apiUrl = "https://api-backend-music.onrender.com/now-playing"; // Updated Render API URL
 
 async function getNowPlaying() {
     try {
@@ -15,7 +15,7 @@ async function getNowPlaying() {
             document.getElementById("album-art").src = "default.png"; // Fallback image
         }
     } catch (error) {
-        console.error("Error fetching data from Replit:", error);
+        console.error("Error fetching data from Render:", error);
         document.getElementById("song-info").innerText = "Error fetching song data.";
         document.getElementById("album-art").src = "default.png"; // Fallback image
     }
