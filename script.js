@@ -1,4 +1,4 @@
-const apiUrl = "https://your-repl-name.YOUR-USERNAME.repl.co/now-playing"; // Replace with your Replit URL
+const apiUrl = "https://61d77998-0da5-4199-8489-75edb7e2333e-00-1wpbje87vuexw.picard.repl.co:8080/now-playing"; // Your Replit API URL
 
 async function getNowPlaying() {
     const response = await fetch(apiUrl);
