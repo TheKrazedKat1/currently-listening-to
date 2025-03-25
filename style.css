@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+#now-playing {
+    margin-top: 20px;
+}
+
+#album-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#song-info {
+    font-size: 18px;
+    margin-top: 10px;
+}
